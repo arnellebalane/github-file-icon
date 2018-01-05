@@ -1,6 +1,6 @@
 {
   "name": "github-file-icon",
-  "description": "A Chrome Extension which energizes GitHub file system.",
+  "description": "A Firefox Add-On which energizes GitHub file system.",
   "author": "xxhomey19",
   "license": "MIT",
   "homepage": "https://github.com/xxhomey19/github-file-icon#readme",
@@ -22,7 +22,7 @@
     "testonly": "jest",
     "testonly:cov": "jest --coverage --runInBand --forceExit --no-cache",
     "testonly:watch": "jest --watch",
-    "zip": "zip -r build/GitHub_File_Icon_$npm_package_version.zip build"
+    "zip": "web-ext build -s build/"
   },
   "dependencies": {
     "file-icons-js": "^1.0.3",

@@ -101,38 +101,33 @@
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/fontawesome.woff2')
-    format('woff2');
+  src: url('../fonts/fontawesome.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Mfizz;
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/mfixx.woff2')
-    format('woff2');
+  src: url('../fonts/mfixx.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Devicons;
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/devopicons.woff2')
-    format('woff2');
+  src: url('../fonts/devopicons.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: file-icons;
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/file-icons.woff2')
-    format('woff2');
+  src: url('../fonts/file-icons.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: octicons;
-  src: url('chrome-extension://__MSG_@@extension_id__/fonts/octicons.woff2')
-    format('woff2');
+  src: url('../fonts/octicons.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

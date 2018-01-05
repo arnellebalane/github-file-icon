@@ -3,8 +3,7 @@
   "name": "GitHub File Icon",
   "author": "xxhomey19",
   "background": {
-    "page": "background.html",
-    "persistent": false
+    "page": "background.html"
   },
   "content_scripts": [
     {
